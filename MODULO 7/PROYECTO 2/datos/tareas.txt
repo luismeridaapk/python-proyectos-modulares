@@ -1,0 +1,5 @@
+101 | Implementar Login | COMPLETADO | 5
+102 | Diseñar Base de Datos | COMPLETADO | 8
+103 | Configurar Servidor | PENDIENTE | 12
+104 | Pruebas Unitarias | EN_PROCESO | 6
+105 | Documentacion API | PENDIENTE | 3

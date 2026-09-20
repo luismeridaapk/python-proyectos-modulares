@@ -1,0 +1,19 @@
+{
+    "resumen": {
+        "INFO": 2,
+        "ERROR": 2,
+        "WARNING": 1
+    },
+    "errores_detectados": [
+        {
+            "fecha": "2026-09-19 08:05:43",
+            "tipo": "ERROR",
+            "mensaje": "Conexion fallida a la base de datos"
+        },
+        {
+            "fecha": "2026-09-19 08:15:22",
+            "tipo": "ERROR",
+            "mensaje": "Intento de acceso no autorizado"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 101,
+        "titulo": "Implementar Login",
+        "estado": "COMPLETADO",
+        "horas": 5
+    },
+    {
+        "id": 102,
+        "titulo": "Dise\u00f1ar Base de Datos",
+        "estado": "COMPLETADO",
+        "horas": 8
+    },
+    {
+        "id": 103,
+        "titulo": "Configurar Servidor",
+        "estado": "PENDIENTE",
+        "horas": 12
+    },
+    {
+        "id": 104,
+        "titulo": "Pruebas Unitarias",
+        "estado": "EN_PROCESO",
+        "horas": 6
+    },
+    {
+        "id": 105,
+        "titulo": "Documentacion API",
+        "estado": "PENDIENTE",
+        "horas": 3
+    }
+]
