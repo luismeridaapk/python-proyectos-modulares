@@ -12,7 +12,7 @@ Repositorio centralizado de soluciones de software en Python orientadas a la res
 | **MODULO 4** | `Proyecto1_M4`<br>`Proyecto2_M4` | • Control de flujo imperativo (`while`, `for`, `break`)<br>• Algoritmos de análisis manual ($min$, $max$ y acumulados sin dependencias)<br>• Sanitización y validación de entradas con `.isdigit()` |
 | **MODULO 5** | `Proyecto1_M5`<br>`Proyecto2_M5` | • Diccionarios anidados y acceso optimizado en $O(1)$ (`.get()`)<br>• Álgebra de conjuntos (intersecciones `&`, uniones `\|`, diferencias)<br>• Consolidación logístico-financiera multi-sede |
 | **MODULO 6** | `Proyecto1_M6`<br>`Proyecto2_M6` | • Arquitectura modular basada en funciones puras<br>• Manejo de parámetros dinámicos (`*args`, `**kwargs`)<br>• Normalización de datos e interfaces interactivas continuas |
-| **MODULO 7** | `PROYECTO 1`<br>`PROYECTO 2` | • Persistencia I/O en `.txt` y exportación a `.json`<br>• Programación funcional (`filter`, `lambda`, *list comprehensions*)<br>• Manejo de excepciones y separación de responsabilidades (I/O, Analytics, Core) |
+| **MODULO 7** | `Proyecto1_M7`<br>`Proyecto2_M7` | • Persistencia I/O en `.txt` y exportación a `.json`<br>• Programación funcional (`filter`, `lambda`, *list comprehensions*)<br>• Manejo de excepciones y separación de responsabilidades (I/O, Analytics, Core) |
 
 ---
 
