@@ -34,3 +34,4 @@ def obtener_logger():
     # Obtención del registrador asociado al contexto del módulo actual
     logger = logging.getLogger(__name__)
     return logger
+
