@@ -1,0 +1,44 @@
+{
+    "metricas": {
+        "total_ingresos": 80000.0,
+        "total_egresos": 4600.5,
+        "balance_neto": 75399.5
+    },
+    "transacciones": [
+        {
+            "id": 101,
+            "fecha": "2026-10-01",
+            "categoria": "NOMINA",
+            "monto": 25000.0,
+            "tipo": "INGRESO"
+        },
+        {
+            "id": 102,
+            "fecha": "2026-10-02",
+            "categoria": "SERVICIOS",
+            "monto": 1200.5,
+            "tipo": "EGRESO"
+        },
+        {
+            "id": 103,
+            "fecha": "2026-10-02",
+            "categoria": "VENTAS",
+            "monto": 5000.0,
+            "tipo": "INGRESO"
+        },
+        {
+            "id": 105,
+            "fecha": "2026-10-03",
+            "categoria": "COMPRAS",
+            "monto": 3400.0,
+            "tipo": "EGRESO"
+        },
+        {
+            "id": 106,
+            "fecha": "2026-10-04",
+            "categoria": "ADMINISTRACIÓN",
+            "monto": 50000.0,
+            "tipo": "INGRESO"
+        }
+    ]
+}

@@ -8,11 +8,12 @@ Repositorio centralizado de soluciones de software en Python orientadas a la res
 
 | Módulo | Proyectos | Arquitectura y Conceptos Aplicados |
 | :--- | :--- | :--- |
-| **MODULO 3** | `PROYECTO1_M3`<br>`PROYECTO2_M3` | • Slicing & Formateo de Cadenas (`f-strings`)<br>• Tuplas inmutables de metadatos<br>• Métodos de listas (`insert`, `append`, `extend`)<br>• Operadores ternarios y lógica condicional compuesta |
+| **MODULO 3** | `Proyecto1_M3`<br>`Proyecto2_M3` | • Slicing & Formateo de Cadenas (`f-strings`)<br>• Tuplas inmutables de metadatos<br>• Métodos de listas (`insert`, `append`, `extend`)<br>• Operadores ternarios y lógica condicional compuesta |
 | **MODULO 4** | `Proyecto1_M4`<br>`Proyecto2_M4` | • Control de flujo imperativo (`while`, `for`, `break`)<br>• Algoritmos de análisis manual ($min$, $max$ y acumulados sin dependencias)<br>• Sanitización y validación de entradas con `.isdigit()` |
 | **MODULO 5** | `Proyecto1_M5`<br>`Proyecto2_M5` | • Diccionarios anidados y acceso optimizado en $O(1)$ (`.get()`)<br>• Álgebra de conjuntos (intersecciones `&`, uniones `\|`, diferencias)<br>• Consolidación logístico-financiera multi-sede |
 | **MODULO 6** | `Proyecto1_M6`<br>`Proyecto2_M6` | • Arquitectura modular basada en funciones puras<br>• Manejo de parámetros dinámicos (`*args`, `**kwargs`)<br>• Normalización de datos e interfaces interactivas continuas |
 | **MODULO 7** | `Proyecto1_M7`<br>`Proyecto2_M7` | • Persistencia I/O en `.txt` y exportación a `.json`<br>• Programación funcional (`filter`, `lambda`, *list comprehensions*)<br>• Manejo de excepciones y separación de responsabilidades (I/O, Analytics, Core) |
+| **MODULO 8** | `Proyecto1_M8`<br>`Proyecto2_M8` | • Manejo de excepciones robusto (`try-except-else-finally`)<br>• Trazabilidad y auditoría mediante el módulo nativo `logging`<br>• Resiliencia I/O contra archivos corruptos y cálculo de métricas financieras |
 
 ---
 
@@ -38,6 +39,14 @@ Repositorio centralizado de soluciones de software en Python orientadas a la res
   * Transformación de cadenas desestructuradas a listas de diccionarios casteados.
   * Agregaciones analíticas (horas totales/promedio), conjuntos de estados únicos (`sets`) y filtros funcionales con `filter()` y `lambda`.
   * Exportación de reportes estructurados a archivos `.json` con sangría normalizada.
+
+### 🛡️ Robust Log Auditor & FinancialTracker CLI (`MODULO 8`)
+* **Descripción:** Sistema de auditoría y análisis financiero resiliente protegido contra errores de lectura y datos corruptos.
+* **Aspectos Técnicos:**
+  * Sistema de trazabilidad y eventos mediante bitácora de auditoría (`app.log`) configurando `logging.basicConfig`.
+  * Validación y depuración estricta de registros con manejo de excepciones jerárquico (`ValueError`, `PermissionError`, `FileNotFoundError`).
+  * Flujo de control defensivo con bloques `try-except-else-finally` e interrupción limpia (`KeyboardInterrupt`).
+  * Exportación consolidada de métricas financieras (Ingresos, Egresos, Balance) en archivos JSON.
 
 ---
 

@@ -1,0 +1,10 @@
+2026-10-03 15:17:28 - logger_config - INFO - Aplicación iniciada
+2026-10-03 15:17:48 - logger_config - ERROR - Sin permisos para leer: C:\PROYECTOS\MODULO 8\PROYECTO 1
+2026-10-03 15:17:48 - logger_config - INFO - Procesamiento finalizado. Registros procesados: 0
+2026-10-03 15:17:54 - logger_config - INFO - El usuario finalizó la sesión
+2026-10-03 15:19:46 - logger_config - INFO - Aplicación iniciada
+2026-10-03 15:20:55 - logger_config - INFO - Aplicación iniciada
+2026-10-03 15:20:59 - logger_config - WARNING - Línea omitida por error: Formato incorrecto: debe contener 4 campos
+2026-10-03 15:20:59 - logger_config - WARNING - Línea omitida por error: Alerta: El valor registrado supera el umbral permitido (100)
+2026-10-03 15:20:59 - logger_config - WARNING - Línea omitida por error: cannot access local variable 'valor_str' where it is not associated with a value
+2026-10-03 15:20:59 - logger_config - INFO - Procesamiento finalizado. Registros procesados: 2

@@ -1,0 +1,5 @@
+2026-10-03,INFO,Inicio de sesion de usuario,15
+2026-10-03,ERROR,Fallo de conexion a base de datos
+2026-10-03,WARNING,Uso de memoria elevado,150
+2026-10-03,INFO,Consulta ejecutada con exito,ABC
+2026-10-03,INFO,Cierre de sesion,20
