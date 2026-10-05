@@ -14,6 +14,7 @@ Repositorio centralizado de soluciones de software en Python orientadas a la res
 | **MODULO 6** | `Proyecto1_M6`<br>`Proyecto2_M6` | • Arquitectura modular basada en funciones puras<br>• Manejo de parámetros dinámicos (`*args`, `**kwargs`)<br>• Normalización de datos e interfaces interactivas continuas |
 | **MODULO 7** | `Proyecto1_M7`<br>`Proyecto2_M7` | • Persistencia I/O en `.txt` y exportación a `.json`<br>• Programación funcional (`filter`, `lambda`, *list comprehensions*)<br>• Manejo de excepciones y separación de responsabilidades (I/O, Analytics, Core) |
 | **MODULO 8** | `Proyecto1_M8`<br>`Proyecto2_M8` | • Manejo de excepciones robusto (`try-except-else-finally`)<br>• Trazabilidad y auditoría mediante el módulo nativo `logging`<br>• Resiliencia I/O contra archivos corruptos y cálculo de métricas financieras |
+| **MODULO 9** | `Proyecto1_M9`<br>`Proyecto2_M9` | • Programación Orientada a Objetos (POO) con clases, encapsulamiento y atributos de clase<br>• Modelado de dominio orientado a entidades (`Libro`, `Biblioteca`, `Producto`, `Inventario`, `Venta`)<br>• Arquitectura de capas (Modelos, Operaciones, Persistencia, UI) y reportes analíticos |
 
 ---
 
@@ -47,6 +48,15 @@ Repositorio centralizado de soluciones de software en Python orientadas a la res
   * Validación y depuración estricta de registros con manejo de excepciones jerárquico (`ValueError`, `PermissionError`, `FileNotFoundError`).
   * Flujo de control defensivo con bloques `try-except-else-finally` e interrupción limpia (`KeyboardInterrupt`).
   * Exportación consolidada de métricas financieras (Ingresos, Egresos, Balance) en archivos JSON.
+
+### 🏪 Retail Inventory & Sales Management System (`MODULO 9`)
+* **Descripción:** Sistema integral de gestión de inventario y ventas para comercio minorista, diseñado con arquitectura orientada a objetos y persistencia de datos.
+* **Aspectos Técnicos:**
+  * Modelo de dominio robusto con clases `Producto`, `Inventario` y `Venta`, implementando encapsulamiento y métodos de instancia/representación.
+  * Arquitectura de software por capas: separación clara entre lógica de negocio (`operations.py`), analítica (`analytics.py`), persistencia (`storage.py`) e interfaz de usuario (`Proyecto2_M9.py`).
+  * Persistencia de estado mediante serialización JSON con manejo de errores de I/O y recuperación de estado (`FileNotFoundError`).
+  * Sistema de reportes integrado que utiliza *list comprehensions* y agregaciones para métricas en tiempo real (valor total, stock crítico, distribución por categoría).
+  * Validación estricta de entradas de usuario para prevenir datos corruptos en el modelo de objetos.
 
 ---
 
